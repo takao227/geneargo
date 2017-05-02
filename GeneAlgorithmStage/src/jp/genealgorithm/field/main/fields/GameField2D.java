@@ -11,6 +11,4 @@ public interface GameField2D {
 	public void reset();
 
 	public int length();
-
-	public boolean collision();
 }

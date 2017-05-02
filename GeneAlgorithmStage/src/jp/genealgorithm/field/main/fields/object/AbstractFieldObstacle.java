@@ -13,15 +13,25 @@ public abstract class AbstractFieldObstacle implements FieldObstacle {
 	}
 
 	@Override
+	public int getBottom() {
+		return top - height;
+	}
+
+	@Override
+	public int getRight() {
+		return left + width;
+	}
+
+	@Override
 	public int getWidth() {
 		return width;
 	}
-	
+
 	@Override
 	public int getTop() {
 		return top;
 	}
-	
+
 	@Override
 	public int getLeft() {
 		return left;

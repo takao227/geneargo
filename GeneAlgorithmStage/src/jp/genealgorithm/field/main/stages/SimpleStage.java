@@ -13,7 +13,7 @@ public class SimpleStage implements GameStage {
 	private GameField2D field;
 
 	private boolean isGoal = false;
-	private int elapTime = 0;
+	private int elapTime = 0;//TIMEとか言いながら、アクション実行回数になってる。
 	private static final int STAGE_LIMIT_TIME = 100;
 
 
